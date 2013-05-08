@@ -1,10 +1,10 @@
-iTunes Feed Fetcher
+#iTunes Feed Fetcher
 
-# start sinatra
+##start sinatra
 ./sinatra.rb
 
-# fetch feeds
+##fetch feeds
 http://localhost:4567/fetch
 
-# display price spark
+##display price spark
 http://localhost:4567/
