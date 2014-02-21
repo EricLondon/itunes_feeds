@@ -10,4 +10,4 @@ http://localhost:4567/fetch
 http://localhost:4567/
 
 ###blog post
-[Fetching/parsing iTunes RSS feeds with Nokogiri, storing the data in MongoDB, and displaying price sparks via Sinatra](http://ericlondon.com/posts/255-fetching-parsing-itunes-rss-feeds-with-nokogiri-storing-the-data-in-mongodb-and-displaying-price-sparks-via-sinatra)
+[Fetching/parsing iTunes RSS feeds with Nokogiri, storing the data in MongoDB, and displaying price sparks via Sinatra](http://ericlondon.com/2013/03/20/fetching-parsing-itunes-rss-feeds-with-nokogiri-storing-the-data-in-mongodb-and-displaying-price-sparks-via-sinatra.html)
