@@ -21,7 +21,7 @@ GEM
     nokogiri (1.5.8)
     nori (2.0.4)
     origin (1.0.11)
-    rack (1.5.2)
+    rack (1.6.13)
     rack-protection (1.5.0)
       rack
     sinatra (1.4.1)
