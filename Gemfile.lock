@@ -21,7 +21,7 @@ GEM
       tzinfo (~> 0.3.22)
     moped (1.4.3)
     multi_json (1.15.0)
-    nokogiri (1.13.2)
+    nokogiri (1.13.4)
       mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     nori (2.0.4)
