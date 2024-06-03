@@ -1,36 +1,44 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    activemodel (3.2.22.5)
-      activesupport (= 3.2.22.5)
-      builder (~> 3.0.0)
-    activesupport (3.2.22.5)
-      i18n (~> 0.6, >= 0.6.4)
-      multi_json (~> 1.0)
+    activemodel (7.1.3.3)
+      activesupport (= 7.1.3.3)
+    activesupport (7.1.3.3)
+      base64
+      bigdecimal
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      connection_pool (>= 2.2.5)
+      drb
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      mutex_m
+      tzinfo (~> 2.0)
     base64 (0.2.0)
     bigdecimal (3.1.8)
-    builder (3.0.4)
-    concurrent-ruby (1.1.8)
+    bson (5.0.0)
+    concurrent-ruby (1.3.1)
+    connection_pool (2.4.1)
     curb (1.0.5)
+    drb (2.2.1)
     googlecharts (1.6.12)
-    i18n (0.9.5)
+    i18n (1.14.5)
       concurrent-ruby (~> 1.0)
     mini_portile2 (2.8.6)
-    mongoid (3.1.2)
-      activemodel (~> 3.2)
-      moped (~> 1.4.2)
-      origin (~> 1.0)
-      tzinfo (~> 0.3.22)
-    moped (1.4.3)
-    multi_json (1.15.0)
+    minitest (5.23.1)
+    mongo (2.20.0)
+      bson (>= 4.14.1, < 6.0.0)
+    mongoid (9.0.0)
+      activemodel (>= 5.1, < 7.2, != 7.0.0)
+      concurrent-ruby (>= 1.0.5, < 2.0)
+      mongo (>= 2.18.0, < 3.0.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
+    mutex_m (0.2.0)
     nokogiri (1.16.5)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     nori (2.7.0)
       bigdecimal
-    origin (1.0.11)
     racc (1.7.3)
     rack (3.0.11)
     rack-protection (4.0.0)
@@ -46,7 +54,8 @@ GEM
       rack-session (>= 2.0.0, < 3)
       tilt (~> 2.0)
     tilt (2.3.0)
-    tzinfo (0.3.61)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
 
 PLATFORMS
   ruby
@@ -54,7 +63,7 @@ PLATFORMS
 DEPENDENCIES
   curb
   googlecharts
-  mongoid (~> 3.0)
+  mongoid (~> 9.0)
   nokogiri
   nori
   sinatra
