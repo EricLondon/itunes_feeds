@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'mongoid', '~> 9.0'
+gem 'mongoid', '~> 9.1'
 gem 'curb'
 gem 'nokogiri'
 gem 'nori'
